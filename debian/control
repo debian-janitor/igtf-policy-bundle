@@ -76,6 +76,7 @@ Package: igtf-policy-unaccredited
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: openssl
+Multi-Arch: foreign
 Description: IGTF unaccredited Certificate Authorities
  The Interoperable Global Trust Federation (IGTF) maintains a common trust
  base for the benefit of distributed science and research computing
@@ -90,6 +91,7 @@ Package: igtf-policy-experimental
 Architecture: all
 Depends: ${misc:Depends}
 Recommends: openssl
+Multi-Arch: foreign
 Description: IGTF experimental Certificate Authorities
  The Interoperable Global Trust Federation (IGTF) maintains a common trust
  base for the benefit of distributed science and research computing
